@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>AKMovies4UPro</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-UfVzLYBswp3i9ryZ2Ym3ZormTU5b8TtiKx5nvsULvS7gJBwLf2fvfp3J4+RO0vkAUpNJ9JVnnSUKhJqMv5VnOg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: black;">
+
+      <a class="navbar-brand" href="#">AKMovies4UPro
+      <img src="/assets/images/logo.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top rounded-circle ml-2 ">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse bg-dark px-4 mt-2" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown"> <!-- Added dropdown class -->
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMovies" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Movies
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMovies">
+              <a class="dropdown-item" href="#">Hollywood</a>
+              <a class="dropdown-item" href="#">Bollywood</a>
+              <a class="dropdown-item" href="#">South</a>
+              <a class="dropdown-item" href="#">Web Series</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Live</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+  </nav>
+  
+  
+  <div class="bottom-menu" id="bottom-menu"><a href="/">
+      <div class="bottom-menu-icons">
+        <i class="fa-solid fa-house" aria-hidden="true"></i>
+      </div>
+      <div class="bottom-menu-icons-title">
+        Home
+      </div>
+    </a>
+  
+    <a href="/HTML/tv/index.html">
+      <div class="bottom-menu-icons">
+        <i class="fa-solid fa-tv" aria-hidden="true"></i>
+      </div>
+      <div class="bottom-menu-icons-title">
+        TV
+      </div>
+    </a>
+  
+    <a href="/HTML/Pro/pro.html">
+      <div class="bottom-menu-icons">
+        <img src="/assets/images/logo.jpg" style="width: 50px;
+            height: 50px;
+            border-radius: 30%;
+            ">
+      </div>
+      <div class="bottom-menu-icons-title">
+  
+      </div>
+    </a>
+  
+    <a href="/HTML/movies/movies.html">
+      <div class="bottom-menu-icons">
+        <i class="fa-solid fa-film" aria-hidden="true"></i>
+      </div>
+      <div class="bottom-menu-icons-title">
+        Movies
+      </div>
+    </a>
+  
+    <a href="/HTML/sports/sports.html">
+      <div class="bottom-menu-icons">
+        <i class="fa-solid fa-basketball" aria-hidden="true"></i>
+      </div>
+      <div class="bottom-menu-icons-title">
+        Sports
+      </div>
+    </a>
+  
+  </div>
+
+
+
+
+
+
+  <!--Carousel Section-->
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+
+      <a href="/assets/images/logo.jpg" class="carousel-item active">
+        <img src="/assets/images/logo.jpg" class="d-block w-100" alt="Slide 3">
+      </a>
+
+
+      <a href="/assets/images/1405040-h-745f9aa52bbc.jpeg" class="carousel-item">
+        <img src="/assets/images/1145603-h-3038c1e973f7.jpeg" class="d-block w-100" alt="Slide 1">
+      </a>
+      <a href="/assets/images/1405040-h-745f9aa52bbc.jpeg" class="carousel-item">
+        <img src="/assets/images/1389225-h-d564666bc1d5.jpeg" class="d-block w-100" alt="Slide 2">
+      </a>
+      <a href="/assets/images/1405040-h-745f9aa52bbc.jpeg" class="carousel-item">
+        <img src="/assets/images/1405040-h-745f9aa52bbc.jpeg" class="d-block w-100" alt="Slide 3">
+      </a>
+      
+      <a href="/assets/images/Picsart_24-06-23_08-35-32-761.jpg" class="carousel-item">
+        <img src="/assets/images/Picsart_24-06-23_08-35-32-761.jpg" class="d-block w-100" alt="Slide 1">
+      </a>
+
+      
+      
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  
+  <!-- Continue Watching Section -->
+  <div class="sections">
+    <div class="contents_arrow">
+      <div class="contents">
+        <a href="https://akmovie4upro.blogspot.com" class="d-block">
+          Continue Watching
+          <i class="fa-solid fa-angle-right" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  
+    <div class="main_contents-slider section_1" id="popular_contents">
+  
+      <a href="">
+        <div class="content-slider section_1" style="background-image: url(https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/4250/1364250-h-0143a95cfb88); background-size: cover; background-repeat: no-repeat;"></div>
+      </a>
+  
+      <a href="">
+        <div class="content-slider section_1" style="background-image: url(https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/7456/267456-h); background-size: cover; background-repeat: no-repeat;"></div>
+      </a>
+  
+      <a href="">
+        <div class="content-slider section_1" style="background-image: url(https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/9225/1389225-h-d564666bc1d5); background-size: cover; background-repeat: no-repeat;"></div>
+      </a>
+  
+      <a href="">
+        <div class="content-slider section_1" style="background-image: url(https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/2212/1042212-h-0e83e926cfc1); background-size: cover; background-repeat: no-repeat;"></div>
+      </a>
+  
+      <a href="">
+        <div class="content-slider section_1" style="background-image: url(https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/7082/97082-h); background-size: cover; background-repeat: no-repeat;"></div>
+      </a>
+  
+      <a href="">
+        <div class="content-slider section_1" style="background-image: url(https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/8863/1348863-h-0d3a2927b302); background-size: cover; background-repeat: no-repeat;"></div>
+      </a>
+  
+    </div>
+  
+  </div>
+
+
+  <!-- Latest Section -->
+  <div class="sections">
+    <div class="contents_arrow">
+      <div class="contents">
+        <a href="https://akmovie4upro.blogspot.com" class="d-block" style="margin-bottom: 40px;">
+          Latest
+          <i class="fa-solid fa-angle-right" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  
+    <div class="main_contents-slider section_2 d-block">
+  
+      <a href="/HTML/movies/category/bollywood/iframe/Brahmastra_part_1st.html">
+        <div class="content-slider section_2" style="background-image: url(https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_2_5x/sources/r1/cms/prod/5052/1405052-v-2063bab41935); background-size: cover; background-repeat: no-repeat;"></div>
+      </a>
+  
+  
+      <a href="intent:https://hb4alllink.herokuapp.com/214e0/Hacked-(2020)-Hindi-HDRip-x264-700MB-ESubs.mp4#Intent;package=com.mxtech.videoplayer.ad;end">
+        <div class="content-slider section_2" style="background-image: url(https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_2_5x/sources/r1/cms/prod/3056/1393056-v-0fc762bea369); background-size: cover; background-repeat: no-repeat;"></div>
+      </a>
+      <a href="https://www.instagram.com">
+        <div class="content-slider section_2" style="background-image: url(https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_2_5x/sources/r1/cms/prod/4836/1374836-v-9e675d9bcb9e); background-size: cover; background-repeat: no-repeat;"></div>
+      </a>
+      <a href="https://www.tweeter.com">
+        <div class="content-slider section_2" style="background-image: url(https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_2_5x/sources/r1/cms/prod/1732/1351732-v-77bea0bdf9e6); background-size: cover; background-repeat: no-repeat;"></div>
+      </a>
+    </div>
+  
+  </div>
+  
+  
+  
+  <!-- Trending Section -->
+  <div class="sections">
+    <div class="contents_arrow">
+      <div class="contents">
+        <a href="https://akmovie4upro.blogspot.com" class="d-block" style="margin-bottom: 40px;">
+          Trending
+          <i class="fa-solid fa-angle-right" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  
+    <div class="main_contents-slider section_2 d-block">
+  
+      <a href="/HTML/movies/category/bollywood/iframe/Brahmastra_part_1st.html">
+        <div class="content-slider section_2" style="background-image: url(https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_2_5x/sources/r1/cms/prod/5052/1405052-v-2063bab41935); background-size: cover; background-repeat: no-repeat;"></div>
+      </a>
+  
+  
+      <a href="intent:https://hb4alllink.herokuapp.com/214e0/Hacked-(2020)-Hindi-HDRip-x264-700MB-ESubs.mp4#Intent;package=com.mxtech.videoplayer.ad;end">
+        <div class="content-slider section_2" style="background-image: url(https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_2_5x/sources/r1/cms/prod/3056/1393056-v-0fc762bea369); background-size: cover; background-repeat: no-repeat;"></div>
+      </a>
+      <a href="https://www.instagram.com">
+        <div class="content-slider section_2" style="background-image: url(https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_2_5x/sources/r1/cms/prod/4836/1374836-v-9e675d9bcb9e); background-size: cover; background-repeat: no-repeat;"></div>
+      </a>
+      <a href="https://www.tweeter.com">
+        <div class="content-slider section_2" style="background-image: url(https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_2_5x/sources/r1/cms/prod/1732/1351732-v-77bea0bdf9e6); background-size: cover; background-repeat: no-repeat;"></div>
+      </a>
+    </div>
+  
+  </div>
+  
+  
+  
+    <!-- Popular Show Section -->
+  <div class="sections">
+    <div class="contents_arrow">
+      <div class="contents">
+        <a href="https://akmovie4upro.blogspot.com" class="d-block" style="margin-bottom: 40px;">
+          Popular Shows
+          <i class="fa-solid fa-angle-right" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  
+    <div class="main_contents-slider section_2 d-block">
+  
+      <a href="/HTML/movies/category/bollywood/iframe/Brahmastra_part_1st.html">
+        <div class="content-slider section_2" style="background-image: url(https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_2_5x/sources/r1/cms/prod/5052/1405052-v-2063bab41935); background-size: cover; background-repeat: no-repeat;"></div>
+      </a>
+  
+  
+      <a href="intent:https://hb4alllink.herokuapp.com/214e0/Hacked-(2020)-Hindi-HDRip-x264-700MB-ESubs.mp4#Intent;package=com.mxtech.videoplayer.ad;end">
+        <div class="content-slider section_2" style="background-image: url(https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_2_5x/sources/r1/cms/prod/3056/1393056-v-0fc762bea369); background-size: cover; background-repeat: no-repeat;"></div>
+      </a>
+      <a href="https://www.instagram.com">
+        <div class="content-slider section_2" style="background-image: url(https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_2_5x/sources/r1/cms/prod/4836/1374836-v-9e675d9bcb9e); background-size: cover; background-repeat: no-repeat;"></div>
+      </a>
+      <a href="https://www.tweeter.com">
+        <div class="content-slider section_2" style="background-image: url(https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_2_5x/sources/r1/cms/prod/1732/1351732-v-77bea0bdf9e6); background-size: cover; background-repeat: no-repeat;"></div>
+      </a>
+    </div>
+  
+  </div>
+
+
+    <!-- Movies Recommended For You Section -->
+  <div class="sections">
+    <div class="contents_arrow">
+      <div class="contents">
+        <a href="https://akmovie4upro.blogspot.com" class="d-block" style="margin-bottom: 40px;">
+          Movies Recommended For You
+          <i class="fa-solid fa-angle-right" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  
+    <div class="main_contents-slider section_2 d-block">
+  
+      <a href="/HTML/movies/category/bollywood/iframe/Brahmastra_part_1st.html">
+        <div class="content-slider section_2" style="background-image: url(https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_2_5x/sources/r1/cms/prod/5052/1405052-v-2063bab41935); background-size: cover; background-repeat: no-repeat;"></div>
+      </a>
+  
+  
+      <a href="intent:https://hb4alllink.herokuapp.com/214e0/Hacked-(2020)-Hindi-HDRip-x264-700MB-ESubs.mp4#Intent;package=com.mxtech.videoplayer.ad;end">
+        <div class="content-slider section_2" style="background-image: url(https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_2_5x/sources/r1/cms/prod/3056/1393056-v-0fc762bea369); background-size: cover; background-repeat: no-repeat;"></div>
+      </a>
+      <a href="https://www.instagram.com">
+        <div class="content-slider section_2" style="background-image: url(https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_2_5x/sources/r1/cms/prod/4836/1374836-v-9e675d9bcb9e); background-size: cover; background-repeat: no-repeat;"></div>
+      </a>
+      <a href="https://www.tweeter.com">
+        <div class="content-slider section_2" style="background-image: url(https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_2_5x/sources/r1/cms/prod/1732/1351732-v-77bea0bdf9e6); background-size: cover; background-repeat: no-repeat;"></div>
+      </a>
+    </div>
+  
+  </div>
+  
+  
+    <!-- Live Channels Section -->
+  <div class="sections" style="margin-bottom: 40px;">
+    <div class="contents_arrow">
+      <div class="contents">
+        <a href="https://akmovie4upro.blogspot.com" class="d-block">
+          Live Channels
+          <i class="fa-solid fa-angle-right" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  
+    <div class="main_contents-slider section_1" id="popular_contents">
+  
+      <a href="">
+        <div class="content-slider section_1" style="background-image: url(https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/4250/1364250-h-0143a95cfb88); background-size: cover; background-repeat: no-repeat;"></div>
+      </a>
+  
+      <a href="">
+        <div class="content-slider section_1" style="background-image: url(https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/7456/267456-h); background-size: cover; background-repeat: no-repeat;"></div>
+      </a>
+  
+      <a href="">
+        <div class="content-slider section_1" style="background-image: url(https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/9225/1389225-h-d564666bc1d5); background-size: cover; background-repeat: no-repeat;"></div>
+      </a>
+  
+      <a href="">
+        <div class="content-slider section_1" style="background-image: url(https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/2212/1042212-h-0e83e926cfc1); background-size: cover; background-repeat: no-repeat;"></div>
+      </a>
+  
+      <a href="">
+        <div class="content-slider section_1" style="background-image: url(https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/7082/97082-h); background-size: cover; background-repeat: no-repeat;"></div>
+      </a>
+  
+      <a href="">
+        <div class="content-slider section_1" style="background-image: url(https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/8863/1348863-h-0d3a2927b302); background-size: cover; background-repeat: no-repeat;"></div>
+      </a>
+  
+    </div>
+  
+  </div>
+
+
+  
+  
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="main.js"></script>
+  <script src="/Javascript /font-awesome.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

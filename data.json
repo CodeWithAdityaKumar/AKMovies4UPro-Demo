@@ -1,0 +1,40 @@
+{
+  "__id":"jeiejudjejeiekekekekkeje", 
+  "title": "Munjya", 
+  "year": "2024", 
+  "imdbRating": 9.1,
+  "posters": {
+    "landscape": "https://1364250-h-0143a95cfb88.png",
+    "portrait": "https://1364250-h-0143a95cfb88.png"
+  },
+  "videoUrls": {
+    "public_id": "handshake",
+    "version": 1466426766,
+    "url": "http://res.cloudinary.com/demo/video/upload/v1466426766/handshake.mp4",
+    "secure_url": "https://res.cloudinary.com/demo/video/upload/v1466426766/handshake.mp4",
+    "playback_url": "https://res.cloudinary.com/demo/video/upload/sp_auto/v1466426766/handshake.m3u8",
+    "eager": [
+      {
+        "transformation": "sp_hd/m3u8",
+        "url": "http://res.cloudinary.com/demo/video/upload/sp_hd/v1466426766/handshake.m3u8",
+        "secure_url": "https://res.cloudinary.com/demo/video/upload/sp_hd/v1466426766/handshake.m3u8"
+      }
+    ]
+  }, 
+  "uploadedAt": {
+    "date": "23/06/2024", 
+    "time": "10:00 AM"
+  },
+  "downloadLinks": {
+    "4k": "", 
+    "2k": "", 
+    "1080p": "", 
+    "720p": "", 
+    "480p": "", 
+    "360p": "", 
+    "240p": "", 
+    "144p": ""
+  },
+  "category": ["hollywood", "bollywood", "south", "web series"], 
+  "tags": ["munjya", "2024", "bollywood", "hollywood"]
+}

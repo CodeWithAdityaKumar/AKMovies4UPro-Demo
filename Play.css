@@ -1,0 +1,50 @@
+:root {
+  --plyr-color-main: red;
+  --plyr-menu-background: black;
+}
+
+.video-container {
+  margin: 10px auto;
+  margin-top: 60px;
+  width: 100vw;
+  position: fixed;
+}
+
+video {
+  width: 100%;
+}
+
+.details{
+  width: 100%;
+  padding: 5px 20px;
+  position: fixed;
+
+}
+
+.details .title{
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+.details .desc {
+  display: none;
+  font-size: 18px;
+  text-transform: lowercase;
+}
+
+.details .dateTime {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.details .dateTime .date {
+  padding-right: 20px;
+}
+
+.details .dateTime i{
+  padding-right: 3px;
+}
+hr{
+  background-color: white;
+}
